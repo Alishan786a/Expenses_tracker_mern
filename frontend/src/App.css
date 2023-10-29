@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.mybgclr{
+background-color: #080f2e !important;
+}
+.myclr{
+ color: #080f2e !important;
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#LoginAndSignUpContainer{
+  border-radius: 1rem;
+  border: 1px solid grey;
+  max-width: 430px;
+  background-color: white !important;
+}
+
+.myActiveCle.active{
+background-color: #080f2e !important;
+color: white !important;
+
+}
+.userInfoPic{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.userInfoPic img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.btn-outline-myclr{
+  color: #080f2e !important;
+  border-color: #080f2e !important;
+}
+.btn-outline-myclr:hover {
+  color: #fff !important;
+  background-color:#080f2e !important;
+  border-color: #080f2e !important;
+}
+.goBackLink{
+  margin: 0 10px 0 5px;
+  width: 25px;
+    display: inline-block;
+    color:  #080f2e;
+  
+}
+.goBackLink:hover{
+  margin-left: 10px;
+  margin-right: 5px;
+  transition: all 0.3s;
+}
+.css-172kpif-MuiResponsiveChart-container>svg {
+  overflow: visible;
+  margin-left: 10px;
+}
